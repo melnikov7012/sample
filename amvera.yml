@@ -1,3 +1,4 @@
+version: null
 meta:
   environment: python
   toolchain:
@@ -8,7 +9,5 @@ build:
   useCache: true
 run:
   scriptName: https://github.com/melnikov7012/sample/src/app.py
-  command: null
   persistenceMount: /data
-  containerPort: "80"
-  servicePort: "80"
+  containerPort: 80
