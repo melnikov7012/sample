@@ -1,10 +1,9 @@
----
 version: null
 meta:
   environment: python
   toolchain:
     name: pip
-    version: 3.11
+    version: "3.11"
 build:
   requirementsPath: https://github.com/melnikov7012/sample/requirements.txt
   useCache: true
