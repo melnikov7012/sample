@@ -8,7 +8,7 @@ build:
   requirementsPath: https://github.com/melnikov7012/sample/requirements.txt
   useCache: true
 run:
-  scriptName: ""
+  scriptName: https://github.com/melnikov7012/sample/blob/master/src/app.py
   persistenceMount: /data
   containerPort: 80
-  command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+  command: ""
